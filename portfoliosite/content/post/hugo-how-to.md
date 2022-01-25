@@ -1,13 +1,13 @@
 ---
 title: "Hugo How To"
-date: 2022-01-30T01:37:56+08:00
-lastmod: 2022-01-30T01:37:56+08:00
-draft: true
+date: 2022-01-24T01:37:56+08:00
+lastmod: 2022-01-24T01:37:56+08:00
+draft: false
 tags: ["Howto", "Hugo"]
 categories: [""]
 author: "Susan"
-hiddenFromHomePage: true
 ---
+
 this is the video I use to do it successfully finally
 https://youtu.be/LIFvgrRxdt4
 use hugo to generate a static website
@@ -54,3 +54,15 @@ yulin@Yulins-Mac-mini portfoliosite % cd public
 yulin@Yulins-Mac-mini public % git remote -v
 origin	https://github.com/susanpeng/susanpeng.github.io.git (fetch)
 origin	https://github.com/susanpeng/susanpeng.github.io.git (push)
+
+
+
+
+hugo command : 20220124
+
+hugo new site mysite : create a new site locally
+cd mysite: get into the site folder
+hugo server: start a development server on this computer on 1313 port
+-- getting a theme
+ctl+c stop the hugo server
+goto hugo site to pick a theme

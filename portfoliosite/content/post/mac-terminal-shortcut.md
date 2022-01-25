@@ -1,13 +1,16 @@
 ---
-title: "Mac Terminal Shortcut"
-date: 2022-01-30T01:37:56+08:00
+title: "Mac Terminal Shortcuts"
+date: 2022-01-25T01:37:56+08:00
 lastmod: 2022-01-30T01:37:56+08:00
-draft: true
+draft: false
 tags: ["Mac", "Terminal", "Shortcut"]
 categories: [""]
 author: "Susan"
-hiddenFromHomePage: true
 ---
+<!--hiddenFromHomePage: true-->
 
-ctl+k clear the terminal window
-ctl+t new tab
+
+| *Shortcut* | *Function* |
+| --- | --- |
+| ctl+k | Clear the terminal window |
+| ctl+t | Open a new tab in the current window |
