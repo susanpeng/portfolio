@@ -1,0 +1,4 @@
+[submodule "portfoliosite/public"]
+	path = portfoliosite/public
+	url = https://github.com/susanpeng/susanpeng.github.io.git
+	branch = main
