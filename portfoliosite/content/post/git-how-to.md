@@ -1,11 +1,12 @@
 ---
 title: "Get Started with GitHub"
-date: 2017-08-30T01:37:56+08:00
-lastmod: 2017-08-30T01:37:56+08:00
-draft: false
-tags: ["howto", "GitHub"]
-categories: ["Howto"]
-author: "Wikipedia"
+date: 2022-01-30T01:37:56+08:00
+lastmod: 2022-01-30T01:37:56+08:00
+draft: true
+tags: ["Howto", "GitHub"]
+categories: [""]
+author: "Susan"
+hiddenFromHomePage: true
 
 ---
 <!-->

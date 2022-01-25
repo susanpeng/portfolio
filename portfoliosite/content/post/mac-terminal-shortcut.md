@@ -1,11 +1,12 @@
 ---
 title: "Mac Terminal Shortcut"
-date: 2017-08-30T01:37:56+08:00
-lastmod: 2017-08-30T01:37:56+08:00
-draft: false
-tags: ["preview", "中文", "tag-1"]
-categories: ["中文"]
-author: "Wikipedia"
+date: 2022-01-30T01:37:56+08:00
+lastmod: 2022-01-30T01:37:56+08:00
+draft: true
+tags: ["Mac", "Terminal", "Shortcut"]
+categories: [""]
+author: "Susan"
+hiddenFromHomePage: true
 ---
 
 ctl+k clear the terminal window
