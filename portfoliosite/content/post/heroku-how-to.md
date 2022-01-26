@@ -2,58 +2,99 @@
 title: "Deploy Node.js to Heroku"
 Date: 2022-01-25
 ---
-upload node.js to Heroku How to
-
-Procfile
-web: node app.js
+Upload node.js to Heroku How to
 
 
-restapi folder: Desktop/restapi
-
-create a free heroku account
-create an app restapitest
-download: heroku cli
-
-clone the restapitest
+restful folder: Desktop/restful
 
 
+Create a free heroku account.
+
+Ceate a new app "morning67890".
 
 
-restapitest folder: heroku login
+Download: heroku Command Line Interface(CLI)
+```shell
+brew install heroku/brew/heroku
+```
+
+?clone the restapitest
+
+
+
+
+In restful folder: 
+```shell
+heroku login
 check node version: node --version; shoulde be higher than 10
 check npm version: npm --version; should be higher than
 check git version: git --version
-
-### Deploy the app
-create an app on Heroku
-
 ```
+node version shoulde be higher than 10.
+
+npm version should be higher than ??.
+
+**make sure the node.js is runing locally without problem**
+```shell
+npm install nodemon --save-dev
+```
+Try to run, got:
+```shell
+node server.js
+Error: Cannot find module 'swagger-ui-express'
+```
+Install swagger-ui-express.
+
+```shell
+npm install swagger-ui-express
+```
+After install, run; got:
+```
+node server.js
+Error: Cannot find module 'joi'
+```
+Then install joi:
+```shell
+npm install joi
+```
+After install joi, server.js runs successfully.
+
+**Deploy the app**
+Create an app on Heroku. You can careate on the Heroku website or from local computer.
+
+Create new app locallly. Open Terminal:
+```shell
 heroku create
 ```
 
 How to delete/destroy a Heroku application
-```
+```shell
 heroku apps:destroy
 ```
 
 
 
-create a new git repository
-```
-cd my-project 
+Create a new git repository - morning67890 from heroku website.
 
+Open Terminal.
+
+```shell
+cd my-project 
 git init
+
+heroku login
 
 heroku git:remote -a node.js-new-website
 ```
 deploy your application
 ```
 git add . 
-git commit ps, "make it better"
+git commit -am "make it better"
 git push heroku master
 ```
-when push the first time I got:
-! [remote rejected] master -> master (pre-receive hook declined)
-error: failed to push some refs to 'https://git.heroku.com/restfullapitest1.git'
+That is it.
+If it is not working, check logs to find out the reasons:
+```shell
+heroku logs
+```
 
-Then I run
