@@ -3,7 +3,7 @@ title: "Writing Samples: User's Manual and Usability Testing Report"
 date: 2022-01-27T01:37:56+08:00
 lastmod: 2022-01-27T01:37:56+08:00
 draft: false
-tags: ["WritingSample", "UserManual"]
+tags: ["WritingSample", "UsersManual"]
 categories: ["Samples"]
 author: "Susan"
 ---

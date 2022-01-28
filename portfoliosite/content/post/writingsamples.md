@@ -3,7 +3,7 @@ title: "Writing Samples"
 date: 2022-01-23T01:37:56+08:00
 lastmod: 2022-01-23T01:37:56+08:00
 draft: false
-tags: ["UsersManual", "OnlineHelp"]
+tags: ["UsersManual", "OnlineHelp", "WritingSample"]
 categories: ["Samples"]
 author: "Susan"
 ---

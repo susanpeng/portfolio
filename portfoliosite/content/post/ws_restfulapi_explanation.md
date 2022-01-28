@@ -3,7 +3,7 @@ title: "A Writing Sample: A RESTful API Document"
 date: 2022-01-27T01:37:56+08:00
 lastmod: 2022-01-27T01:37:56+08:00
 draft: false
-tags: ["WritingSample", "Aegisub"]
+tags: ["WritingSample", "RESTAPI"]
 categories: ["Samples"]
 author: "Susan"
 ---
