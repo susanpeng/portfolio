@@ -1,5 +1,5 @@
 ---
-title: "As a Software User, How Do You Define Great Documentation?"
+title: "Git's command line and Docs-as-code"
 date: 2022-01-27T01:37:56+08:00
 lastmod: 2022-01-27T01:37:56+08:00
 draft: false
