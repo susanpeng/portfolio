@@ -23,7 +23,7 @@ We had a group of three writers working on this documentation project.
 We had a meeting with the App's development team to get the primary understanding of this App and used every section of it.
 Then we discussed and decided on the deliverables. We all agreed to create the documentation as a website including text content for simple functions and videos for more complex functions. 
 
-We decided that the documentation would be in English, Chines, and Korean. Later, we could add Russian and Indonesian versions after finding suitable translators.
+We decided that the documentation would be in English, Chinese, and Korean. Later, we could add Russian and Indonesian versions after finding suitable translators.
 
 Then we created file name conventions and a style sheet to keep the document's consistency, as we needed some new rules that were not in our organization's style guide.
 

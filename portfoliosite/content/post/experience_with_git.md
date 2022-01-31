@@ -1,5 +1,5 @@
 ---
-title: "Git's command line and Docs-as-code"
+title: "Experience with Git and Docs-as-code"
 date: 2022-01-27T01:37:56+08:00
 lastmod: 2022-01-27T01:37:56+08:00
 draft: false
@@ -8,8 +8,12 @@ categories: [""]
 author: "Susan"
 ---
 
-I’ve been using GitHub for about three years and have extensive experience using command line git. Because I have ten+ years of experience using Unix and Linux shell scripts, command-line git is not a problem for me but allows me to work more efficiently.
+**Git** I’ve about three years of experience using Git and its command line. With ten+ years of experience using Unix and Linux shell scripts, I don’t have any problem using Git and its command-line. In contrast, they allow me to work more efficiently. I use Git to store my projects, host my websites, and collaborate with others.
 
-Due to my working experience as a developer, I love the concept of docs-as-code. That is also what I like to do in my work. For example, I often go to code mode directly to edit the content instead of using the visual editor when using WordPress; using code mode is faster and more convenient. I also like to use VS Code or Atom to edit HTML/CSS or Markdown because they make writing and online publishing more efficient and allow developers to involve in the documentation creating process without learning some DITA authoring tools.
+**Docs as code** 
+Docs as Code refers to the concept that technical writers write docs with the same tool-chain as developers, using issue trackers, version control, plain text markup, code review, and automated tests, integrating the documentation process with the development workflow. It also allows developers to contribute their first draft to the new product conveniently. Its tool-chain mainly includes a version control system, plain or markup text editor, static website generators, etc. The outcome is continuous integration and delivery, making the software production more effective and technical writing and publishing more efficient.
 
-I have working experience with static site generators; my GitHub portfolio site was generated using Hugo.
+I have extensive work experience with Git, VS Code, Atom, static website generators, and Restful API documentation. Even when I put the HTML page on WordPress, I often use the Code editor instead of the Visual editor, as using Code mode is faster and more convenient. I always use VS Code and Git when creating online documentation. 
+I can quickly integrate with your documentation workflow that treats docs as code.
+
+**Static Website Generator** I have working experience with static site generators; my GitHub portfolio site was generated using Hugo.
