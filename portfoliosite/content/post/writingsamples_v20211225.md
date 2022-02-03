@@ -1,5 +1,5 @@
 ---
-title: "Writing Samples Old"
+title: "Writing Samples v20211225"
 date: 2022-01-23T01:37:56+08:00
 lastmod: 2022-01-23T01:37:56+08:00
 draft: false
