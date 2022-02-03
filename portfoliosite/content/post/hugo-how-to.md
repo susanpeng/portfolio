@@ -7,8 +7,7 @@ tags: ["Howto", "Hugo"]
 categories: [""]
 author: "Susan"
 ---
-
-I set up my first Hugo-generated website on GitHub through the process stated in this video: https://youtu.be/LIFvgrRxdt4. I write down the process step by step here for later reference because reading is much faster than watching a video.
+I set up my first Hugo-generated website on GitHub through the following steps. I wrote this file to help whose familiar with GitHub and command line and want to build their static website using Hugo by following simple command lines without detailed explanations.
 
 I'm using a Mac mini m1.
 

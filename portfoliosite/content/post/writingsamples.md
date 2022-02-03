@@ -7,6 +7,7 @@ tags: ["WritingSample", "Samples"]
 categories: ["Samples"]
 author: "Susan"
 ---
+Build a Static Website with Hugo on GitHub (https://susanpeng.github.io/post/ws_hugo_github/)
 
 Aegisub (https://susanpeng.github.io/post/ws_aegisub_explanation)
 
