@@ -1,100 +1,101 @@
 ---
 title: "Deploy Node.js to Heroku"
-Date: 2022-01-25
+date: 2022-02-03T01:37:56+08:00
+lastmod: 2022-02-03T01:37:56+08:00
+draft: false
+tags: ["Heroku", "Node.js", "RESTAPI"]
+categories: [""]
+author: "Susan"
 ---
-Upload node.js to Heroku How to
+
+I used the folder "Desktop/restful" as my REST API folder. 
+
+First, create a free Heroku account.
+
+Then, create a new app "morning67890" on Heroku.
 
 
-restful folder: Desktop/restful
-
-
-Create a free heroku account.
-
-Ceate a new app "morning67890".
-
-
-Download: heroku Command Line Interface(CLI)
+Download the Heroku Command Line Interface(CLI)
 ```shell
-brew install heroku/brew/heroku
+$ brew install heroku/brew/heroku
 ```
 
-?clone the restapitest
+I copyed all files of my RESTAPI from my old RESTAPI folder to the folder "Desktop/restful". 
 
-
-
-
-In restful folder: 
+Under "Desktop/restful" folder: 
 ```shell
-heroku login
-check node version: node --version; shoulde be higher than 10
-check npm version: npm --version; should be higher than
-check git version: git --version
+$ heroku login
 ```
-node version shoulde be higher than 10.
-
-npm version should be higher than ??.
-
-**make sure the node.js is runing locally without problem**
+Check node version:
 ```shell
-npm install nodemon --save-dev
+$ node --version
 ```
-Try to run, got:
+The noder version shoulde be higher than 10.
+
+Check npm version:
 ```shell
-node server.js
+$ npm --version
+```
+Check git version:
+```shell
+$ git --version
+```
+
+
+**Make sure the node.js is runing locally without problem**
+```shell
+$ npm install nodemon --save-dev
+```
+Try to run my API:
+```shell
+$ node server.js
 Error: Cannot find module 'swagger-ui-express'
 ```
-Install swagger-ui-express.
+I should install swagger-ui-express.
 
 ```shell
 npm install swagger-ui-express
 ```
-After install, run; got:
-```
-node server.js
+Try to run my API again:
+```shell
+$ node server.js
 Error: Cannot find module 'joi'
 ```
 Then install joi:
 ```shell
-npm install joi
+$ npm install joi
 ```
-After install joi, server.js runs successfully.
+After installed swagger-ui-express and joi, server.js runs successfully.
 
 **Deploy the app**
-Create an app on Heroku. You can careate on the Heroku website or from local computer.
 
-Create new app locallly. Open Terminal:
+Create an app on Heroku. You can careate on the Heroku web site or from local computer.
+
+To create the new app locallly, open Terminal and type:
 ```shell
-heroku create
+$ heroku create
 ```
-
-How to delete/destroy a Heroku application
+To delete/destroy a Heroku application:
 ```shell
-heroku apps:destroy
+$ heroku apps:destroy
 ```
+**Create a new git repository - morning67890 from heroku website**
 
-
-
-Create a new git repository - morning67890 from heroku website.
-
-Open Terminal.
-
+Open Terminal and type:
 ```shell
-cd my-project 
-git init
-
-heroku login
-
-heroku git:remote -a node.js-new-website
+$ cd my-project 
+$ git init
+$ heroku login
+$ heroku git:remote -a node.js-new-website
 ```
-deploy your application
-```
-git add . 
-git commit -am "make it better"
-git push heroku master
+Deploy your application:
+```shell
+$ git add . 
+$ git commit -am "make it better"
+$ git push heroku master
 ```
 That is it.
-If it is not working, check logs to find out the reasons:
+If it doesn't work, check logs to find out the reasons:
 ```shell
-heroku logs
+$ heroku logs
 ```
-

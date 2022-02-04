@@ -15,11 +15,11 @@ I wrote this how-to to record the steps I used to create a static website using 
 
 To set up the static site, I watched several YouTube videos and checked several articles on Google.
 
-These steps are proven correct, so I can follow them for my following static website setup. That would save me a lot of time searching for information or reading the Hugo manual from the beginning.
+These steps are proven correct so that I can follow them for my following static website setup. That would save me a lot of time searching for information or reading the Hugo manual from the beginning.
 
 This How-to can also help developers who are familiar with GitHub and command lines and only need simple command lines without detailed explanations.
 
-To make it short, I didn't explain the steps that are obvious for those who are familiar with GitHub and its repository.
+I didn't write the detailed steps for some common git operations.
 
 To create this How-to:
 1. I watched several videos and read some articles. I couldn't get things done by watching only one video because each video had some unclear places.
