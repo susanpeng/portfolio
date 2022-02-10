@@ -1,0 +1,12 @@
+This file is about the command lines for start or build this site
+To start: hugo server
+To build: hugo -t hugo-theme-even 
+// even is the name of the theme I selected
+// when creat fild b with the content: hugo -t hugo-theme-even, 
+// remember: 'chmod 755 b', to get the permission to run b for current user
+
+To put on GutHub: 
+cd public // from the portfoliosite folder
+git add .
+git commit -m "message"
+git push

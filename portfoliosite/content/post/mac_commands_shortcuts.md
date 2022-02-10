@@ -29,3 +29,11 @@ Kill this process:
 $ kill 10832
 ```
 Port 3000 is the default port used by Node.
+
+**Delete the .DS_Store file manually**
+Get into the folder containing the .DS_Store file you want to delete.
+```shell
+find . -name '.DS_Store' -type f -delete
+```
+The .DS_Store file will disappear.
+
